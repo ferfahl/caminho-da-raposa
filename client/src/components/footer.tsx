@@ -6,7 +6,7 @@ export function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-4.0.3&auto=format&fit=crop&w=32&h=32" 
+                src="https://github.com/ferfahl/caminho-da-raposa/blob/main/public/static/img/mascote-icone.png?raw=true&auto=format&fit=crop&w=32&h=32" 
                 alt="Fox mascot logo" 
                 className="w-8 h-8 rounded-full mr-2"
               />

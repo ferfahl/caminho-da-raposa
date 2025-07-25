@@ -17,7 +17,7 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center cursor-pointer" onClick={() => navigate("/")}>
             <img 
-              src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-4.0.3&auto=format&fit=crop&w=40&h=40" 
+              src="https://github.com/ferfahl/caminho-da-raposa/blob/main/public/static/img/mascote-icone.png?raw=true&auto=format&fit=crop&w=40&h=40" 
               alt="Fox mascot logo" 
               className="w-10 h-10 rounded-full mr-3"
             />
