@@ -49,10 +49,14 @@ export default function Home() {
               </div>
               <div className="relative">
                 <img 
-                  src="/static/img/mascote-trilha.png" 
-                  alt="Mascote Raposa representando segurança digital" 
+                  src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" 
+                  alt="Cute fox character holding a shield representing digital security" 
                   className="w-full h-auto rounded-2xl shadow-2xl"
                 />
+                <div className="absolute -top-4 -right-4 bg-custom-success text-custom-title px-4 py-2 rounded-full font-semibold shadow-lg">
+                  <i className="fas fa-shield-alt mr-2"></i>
+                  100% Seguro
+                </div>
               </div>
             </div>
           </div>
