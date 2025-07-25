@@ -5,7 +5,7 @@ const Profile = () => {
   const userStats = {
     name: 'Usuário Demo',
     email: 'demo@caminhodaraposa.com',
-    joinDate: 'Janeiro 2025',
+    joinDate: 'Julho 2025',
     totalTime: '0h 0min',
     completedModules: 0,
     totalModules: 23,
