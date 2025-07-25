@@ -49,7 +49,7 @@ export default function Home() {
               </div>
               <div className="relative">
                 <img 
-                  src="https://github.com/ferfahl/caminho-da-raposa/blob/main/public/static/img/mascote-feliz.png?raw=true&auto=format&fit=crop&w=600&h=400" 
+                  src="https://github.com/ferfahl/caminho-da-raposa/blob/main/public/static/img/banner.png?raw=true&auto=format&fit=crop&w=600&h=400" 
                   alt="Cute fox character holding a shield representing digital security" 
                   className="w-full h-auto rounded-2xl shadow-2xl"
                 />
