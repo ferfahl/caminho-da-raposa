@@ -1,6 +1,6 @@
+
 # 🦊 Caminho da Raposa
 
-Teste :) 
 Plataforma educacional interativa voltada para a **conscientização em segurança digital**.  
 Desenvolvida com foco em **usuários não técnicos**, utilizando **gamificação** e **módulos independentes** de ensino.
 
@@ -56,3 +56,62 @@ Desenvolvida com foco em **usuários não técnicos**, utilizando **gamificaçã
 
 ## 📂 Estrutura do Projeto
 
+```
+├── public/              # Arquivos estáticos
+├── src/
+│   ├── components/      # Componentes reutilizáveis (cards, quizzes, menus)
+│   ├── modules/         # Conteúdos independentes de cada trilha
+│   ├── assets/          # Imagens (incluindo mascote)
+│   └── styles/          # Tailwind + customizações
+├── index.html           # Página inicial
+├── tailwind.config.js   # Configuração Tailwind
+└── README.md            # Este arquivo
+```
+
+---
+
+## 🔧 Como Executar Localmente
+
+1. **Clonar o repositório**
+   ```bash
+   git clone https://github.com/SEU_USUARIO/caminho-da-raposa.git
+   cd caminho-da-raposa
+   ```
+
+2. **Instalar dependências**
+   ```bash
+   npm install
+   ```
+
+3. **Rodar localmente**
+   ```bash
+   npm run dev
+   ```
+   O projeto estará disponível em: `http://localhost:3000`
+
+4. **Build para produção**
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 📢 Status do Projeto
+
+- **Fase:** Protótipo navegável  
+- **Próximos passos:**
+  - Implementar área de usuário com autenticação  
+  - Adicionar persistência de progresso  
+  - Conectar conteúdo dinâmico via API
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## 👩‍💻 Autoria
+
+Desenvolvido por **Fernanda Fahl** como parte do **TCC do MBA em Engenharia de Software – USP/ESALQ**.
