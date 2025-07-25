@@ -1,0 +1,29 @@
+[
+  {
+    "id": "digital-self-defense",
+    "title": "Autodefesa Digital",
+    "description": "Aprenda técnicas essenciais para proteger seus dados pessoais, criar senhas seguras e reconhecer ameaças online.",
+    "duration": "~45 min",
+    "moduleCount": 5,
+    "difficulty": "Iniciante",
+    "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&h=80"
+  },
+  {
+    "id": "scams-and-traps",
+    "title": "Golpes e Armadilhas",
+    "description": "Identifique e evite golpes online, phishing, e-mails fraudulentos e outras armadilhas digitais comuns.",
+    "duration": "~35 min", 
+    "moduleCount": 4,
+    "difficulty": "Intermediário",
+    "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&h=80"
+  },
+  {
+    "id": "example-flexible-trail",
+    "title": "Exemplo de Conteúdo Flexível",
+    "description": "Demonstração de como usar o novo formato flexível de conteúdo com imagens e diferentes tipos de seções.",
+    "duration": "~20 min",
+    "moduleCount": 1,
+    "difficulty": "Exemplo",
+    "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=80&h=80"
+  }
+]

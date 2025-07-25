@@ -1,0 +1,180 @@
+{
+  "id": "digital-self-defense",
+  "title": "Autodefesa Digital",
+  "description": "Aprenda técnicas essenciais para proteger seus dados pessoais, criar senhas seguras e reconhecer ameaças online.",
+  "duration": "~45 min",
+  "difficulty": "Iniciante",
+  "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+  "modules": [
+    {
+      "id": 1,
+      "title": "Introdução à Segurança Digital",
+      "description": "Conceitos básicos sobre proteção de dados e privacidade online.",
+      "readingTime": "10min",
+      "quizTime": "5min",
+      "content": "<h3>O que é Segurança Digital?</h3><p>A segurança digital refere-se às práticas e medidas tomadas para proteger informações pessoais, dados e sistemas contra ameaças online. Em um mundo cada vez mais conectado, é essencial entender como proteger-se no ambiente digital.</p><h4>Por que a Segurança Digital é Importante?</h4><ul><li><strong>Proteção de Dados Pessoais:</strong> Suas informações pessoais têm valor e podem ser usadas de forma maliciosa se caírem em mãos erradas.</li><li><strong>Privacidade:</strong> Manter controle sobre quem tem acesso às suas informações e atividades online.</li><li><strong>Segurança Financeira:</strong> Proteger contas bancárias e cartões de crédito contra fraudes.</li><li><strong>Reputação Online:</strong> Evitar que sua identidade seja usada indevidamente.</li></ul><h4>Principais Ameaças Digitais</h4><p>Algumas das principais ameaças que enfrentamos no ambiente digital incluem:</p><ul><li>Phishing e golpes por e-mail</li><li>Malware e vírus</li><li>Roubo de identidade</li><li>Invasão de contas</li><li>Fraudes financeiras online</li></ul><p>Nos próximos módulos, você aprenderá como se proteger contra essas e outras ameaças.</p>",
+      "quiz": [
+        {
+          "id": 1,
+          "question": "O que é segurança digital?",
+          "options": [
+            "Apenas proteger o computador contra vírus",
+            "Práticas para proteger informações e sistemas contra ameaças online",
+            "Usar apenas sites seguros",
+            "Não compartilhar senhas"
+          ],
+          "correct": 1,
+          "explanation": "Segurança digital engloba todas as práticas e medidas para proteger informações pessoais, dados e sistemas contra diversas ameaças online."
+        },
+        {
+          "id": 2,
+          "question": "Por que a privacidade online é importante?",
+          "options": [
+            "Para esconder atividades ilegais",
+            "Para manter controle sobre quem acessa suas informações",
+            "Não é importante, todos podem ver tudo",
+            "Apenas para empresas"
+          ],
+          "correct": 1,
+          "explanation": "A privacidade online é fundamental para manter controle sobre suas informações pessoais e proteger sua identidade digital."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Criando Senhas Seguras",
+      "description": "Técnicas para criar e gerenciar senhas realmente seguras.",
+      "readingTime": "8min",
+      "quizTime": "7min",
+      "content": "<h3>A Importância de Senhas Seguras</h3><p>Senhas são a primeira linha de defesa para proteger suas contas online. Uma senha fraca pode comprometer todos os seus dados pessoais e financeiros.</p><h4>Características de uma Senha Segura</h4><ul><li><strong>Comprimento:</strong> Pelo menos 12 caracteres</li><li><strong>Complexidade:</strong> Combinação de letras maiúsculas, minúsculas, números e símbolos</li><li><strong>Unicidade:</strong> Diferente para cada conta</li><li><strong>Imprevisibilidade:</strong> Não deve conter informações pessoais óbvias</li></ul><h4>Técnicas para Criar Senhas Fortes</h4><p><strong>1. Método da Frase-senha:</strong></p><p>Crie uma frase memorável e transforme-a em senha. Exemplo:</p><p>Frase: 'Eu amo comer pizza às 19h todos os sábados!'</p><p>Senha: 'EacP@19htos!'</p><p><strong>2. Método da Substituição:</strong></p><p>Substitua letras por números e símbolos similares:</p><ul><li>a → @</li><li>e → 3</li><li>i → !</li><li>o → 0</li><li>s → $</li></ul><h4>Gerenciadores de Senhas</h4><p>Para gerenciar múltiplas senhas complexas, considere usar um gerenciador de senhas como:</p><ul><li>LastPass</li><li>1Password</li><li>Bitwarden</li><li>Dashlane</li></ul><p>Esses ferramentas geram e armazenam senhas únicas para cada conta, exigindo que você lembre apenas de uma senha mestra.</p>",
+      "quiz": [
+        {
+          "id": 1,
+          "question": "Qual é o comprimento mínimo recomendado para uma senha segura?",
+          "options": [
+            "6 caracteres",
+            "8 caracteres", 
+            "12 caracteres",
+            "20 caracteres"
+          ],
+          "correct": 2,
+          "explanation": "Senhas seguras devem ter pelo menos 12 caracteres para oferecer proteção adequada contra ataques."
+        },
+        {
+          "id": 2,
+          "question": "Qual das seguintes opções representa uma senha mais segura?",
+          "options": [
+            "123456789",
+            "MinhaData2024",
+            "K9$mR#n8@pL2&vX!",
+            "password123"
+          ],
+          "correct": 2,
+          "explanation": "A senha 'K9$mR#n8@pL2&vX!' é mais segura por combinar letras maiúsculas, minúsculas, números e símbolos de forma aleatória."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Reconhecendo Ameaças",
+      "description": "Como identificar e-mails suspeitos e sites fraudulentos.",
+      "readingTime": "12min",
+      "quizTime": "8min",
+      "content": "<h3>Identificando E-mails Suspeitos</h3><p>O phishing é uma das ameaças mais comuns na internet. Criminosos enviam e-mails que parecem legítimos para roubar informações pessoais.</p><h4>Sinais de Alerta em E-mails</h4><ul><li><strong>Remetente suspeito:</strong> Endereços estranhos ou que imitam empresas conhecidas</li><li><strong>Urgência excessiva:</strong> Mensagens que pressionam para ação imediata</li><li><strong>Erros de português:</strong> Gramática e ortografia incorretas</li><li><strong>Links suspeitos:</strong> URLs que não correspondem à empresa mencionada</li><li><strong>Anexos inesperados:</strong> Arquivos que você não solicitou</li></ul><h4>Verificando Sites Seguros</h4><p>Antes de inserir informações pessoais em um site:</p><ul><li>Verifique se a URL começa com 'https://' (não apenas 'http://')</li><li>Procure pelo ícone de cadeado na barra de endereços</li><li>Confirme se o nome do domínio está correto</li><li>Desconfie de ofertas boas demais para ser verdade</li></ul><h4>Redes Sociais e Golpes</h4><p>Golpistas também usam redes sociais para aplicar fraudes:</p><ul><li>Perfis falsos que imitam pessoas conhecidas</li><li>Ofertas de emprego falsas</li><li>Promoções e sorteios fraudulentos</li><li>Pedidos de dinheiro de 'amigos' hackeados</li></ul><p>Sempre confirme a identidade da pessoa por outro meio de comunicação antes de responder a pedidos suspeitos.</p>",
+      "quiz": [
+        {
+          "id": 1,
+          "question": "Qual é um sinal de alerta comum em e-mails de phishing?",
+          "options": [
+            "Mensagens longas e detalhadas",
+            "Urgência excessiva para ação imediata",
+            "Anexos em formato PDF",
+            "Assinatura da empresa"
+          ],
+          "correct": 1,
+          "explanation": "E-mails de phishing frequentemente criam senso de urgência para fazer com que as vítimas ajam sem pensar."
+        },
+        {
+          "id": 2,
+          "question": "O que indica que um site é seguro para inserir informações pessoais?",
+          "options": [
+            "Design bonito e profissional",
+            "URL que começa com 'https://' e ícone de cadeado",
+            "Muitas cores e animações",
+            "Endereço de e-mail de contato"
+          ],
+          "correct": 1,
+          "explanation": "Sites seguros usam HTTPS (protocolo criptografado) e exibem um ícone de cadeado na barra de endereços."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Navegação Segura",
+      "description": "Boas práticas para navegar na internet com segurança.",
+      "readingTime": "10min",
+      "quizTime": "6min",
+      "content": "<h3>Princípios da Navegação Segura</h3><p>Navegar na internet com segurança envolve estar atento a diversos aspectos que podem comprometer sua privacidade e segurança.</p><h4>Configurações do Navegador</h4><p>Configure seu navegador para maior segurança:</p><ul><li><strong>Atualizações automáticas:</strong> Mantenha sempre a versão mais recente</li><li><strong>Bloqueador de pop-ups:</strong> Evita janelas maliciosas</li><li><strong>Navegação privada:</strong> Use quando necessário para não salvar histórico</li><li><strong>Extensões de segurança:</strong> Instale apenas de fontes confiáveis</li></ul><h4>Downloads Seguros</h4><p>Ao baixar arquivos da internet:</p><ul><li>Use apenas sites oficiais e confiáveis</li><li>Verifique a reputação do site antes de baixar</li><li>Escaneie todos os downloads com antivírus</li><li>Desconfie de downloads automáticos</li><li>Leia os termos de instalação cuidadosamente</li></ul><h4>Wi-Fi Público</h4><p>Redes Wi-Fi públicas podem ser perigosas:</p><ul><li>Evite acessar informações sensíveis</li><li>Use uma VPN quando possível</li><li>Desative o compartilhamento de arquivos</li><li>Prefira redes que exigem senha</li><li>Desconecte-se quando terminar de usar</li></ul><h4>Cookies e Rastreamento</h4><p>Gerencie sua privacidade online:</p><ul><li>Configure as opções de cookies do navegador</li><li>Use modo de navegação privada quando apropriado</li><li>Considere usar bloqueadores de rastreamento</li><li>Revise e ajuste configurações de privacidade regularmente</li></ul>",
+      "quiz": [
+        {
+          "id": 1,
+          "question": "Por que é importante manter o navegador atualizado?",
+          "options": [
+            "Para ter novos recursos",
+            "Para corrigir falhas de segurança",
+            "Para mudar a aparência",
+            "Não é importante"
+          ],
+          "correct": 1,
+          "explanation": "Atualizações frequentemente corrigem vulnerabilidades de segurança que poderiam ser exploradas por criminosos."
+        },
+        {
+          "id": 2,
+          "question": "Qual cuidado você deve ter ao usar Wi-Fi público?",
+          "options": [
+            "Usar normalmente, sem restrições",
+            "Evitar acessar informações sensíveis",
+            "Sempre compartilhar a senha",
+            "Deixar o Wi-Fi sempre conectado"
+          ],
+          "correct": 1,
+          "explanation": "Wi-Fi público pode ser inseguro, então evite acessar bancos, e-mails ou outras informações sensíveis nessas redes."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Proteção de Dados Pessoais",
+      "description": "Como proteger suas informações pessoais na era digital.",
+      "readingTime": "15min",
+      "quizTime": "10min",
+      "content": "<h3>A Importância da Proteção de Dados</h3><p>Seus dados pessoais são valiosos e devem ser protegidos. Empresas e criminosos podem usar essas informações para diversos fins, nem sempre benéficos.</p><h4>Tipos de Dados Pessoais</h4><ul><li><strong>Dados de identificação:</strong> Nome, CPF, RG, data de nascimento</li><li><strong>Dados de contato:</strong> E-mail, telefone, endereço</li><li><strong>Dados financeiros:</strong> Informações bancárias, cartões de crédito</li><li><strong>Dados comportamentais:</strong> Histórico de navegação, compras, localização</li><li><strong>Dados biométricos:</strong> Impressões digitais, reconhecimento facial</li></ul><h4>LGPD - Lei Geral de Proteção de Dados</h4><p>No Brasil, a LGPD garante direitos sobre seus dados:</p><ul><li><strong>Direito de acesso:</strong> Saber quais dados uma empresa tem sobre você</li><li><strong>Direito de correção:</strong> Corrigir dados incorretos</li><li><strong>Direito de exclusão:</strong> Solicitar remoção de dados</li><li><strong>Direito de portabilidade:</strong> Transferir dados entre serviços</li></ul><h4>Boas Práticas de Proteção</h4><ul><li><strong>Revise configurações de privacidade:</strong> Em redes sociais e aplicativos</li><li><strong>Leia políticas de privacidade:</strong> Entenda como seus dados são usados</li><li><strong>Compartilhe o mínimo necessário:</strong> Forneça apenas dados essenciais</li><li><strong>Use autenticação de dois fatores:</strong> Quando disponível</li><li><strong>Monitore suas contas:</strong> Verifique atividades suspeitas regularmente</li></ul><h4>Backup e Recuperação</h4><p>Proteja-se contra perda de dados:</p><ul><li>Faça backups regulares de arquivos importantes</li><li>Use soluções de armazenamento em nuvem confiáveis</li><li>Teste a recuperação de backups periodicamente</li><li>Mantenha cópias em locais diferentes</li></ul>",
+      "quiz": [
+        {
+          "id": 1,
+          "question": "O que a LGPD garante aos usuários?",
+          "options": [
+            "Apenas o direito de exclusão de dados",
+            "Direitos como acesso, correção e exclusão de dados pessoais",
+            "Proteção apenas contra hackers",
+            "Nenhum direito específico"
+          ],
+          "correct": 1,
+          "explanation": "A LGPD garante diversos direitos aos titulares de dados, incluindo acesso, correção, exclusão e portabilidade."
+        },
+        {
+          "id": 2,
+          "question": "Por que é importante fazer backup de dados importantes?",
+          "options": [
+            "Para ocupar mais espaço de armazenamento",
+            "Para proteger contra perda de dados por falhas ou ataques",
+            "Não é necessário fazer backup",
+            "Apenas para empresas"
+          ],
+          "correct": 1,
+          "explanation": "Backups protegem contra perda de dados causada por falhas de hardware, ataques de ransomware ou outros incidentes."
+        }
+      ]
+    }
+  ]
+}

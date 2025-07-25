@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(280, 100%, 98%);
+  --foreground: hsl(0, 0%, 18%);
+  --muted: hsl(280, 20%, 96%);
+  --muted-foreground: hsl(0, 0%, 45%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(0, 0%, 18%);
+  --card: hsl(0, 0%, 98%);
+  --card-foreground: hsl(0, 0%, 18%);
+  --border: hsl(270, 30%, 85%);
+  --input: hsl(270, 30%, 85%);
+  --primary: hsl(290, 83%, 65%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(260, 45%, 67%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --accent: hsl(280, 20%, 96%);
+  --accent-foreground: hsl(0, 0%, 18%);
+  --destructive: hsl(0, 73%, 82%);
+  --destructive-foreground: hsl(0, 0%, 18%);
+  --ring: hsl(290, 83%, 65%);
+  --radius: 0.75rem;
+  
+  /* Custom fox-themed colors */
+  --custom-bg: hsl(280, 100%, 98%);
+  --custom-title: hsl(270, 50%, 32%);
+  --custom-text: hsl(0, 0%, 18%);
+  --custom-highlight: hsl(225, 35%, 38%);
+  --custom-card: hsl(0, 0%, 98%);
+  --custom-border: hsl(270, 30%, 85%);
+  --custom-primary: hsl(290, 83%, 65%);
+  --custom-secondary: hsl(260, 45%, 67%);
+  --custom-hover: hsl(285, 70%, 58%);
+  --custom-link: hsl(245, 100%, 70%);
+  --custom-success: hsl(140, 40%, 75%);
+  --custom-error: hsl(0, 60%, 82%);
+}
+
+.dark {
+  --background: hsl(270, 15%, 8%);
+  --foreground: hsl(0, 0%, 95%);
+  --muted: hsl(270, 15%, 15%);
+  --muted-foreground: hsl(0, 0%, 60%);
+  --popover: hsl(270, 15%, 8%);
+  --popover-foreground: hsl(0, 0%, 95%);
+  --card: hsl(270, 15%, 8%);
+  --card-foreground: hsl(0, 0%, 95%);
+  --border: hsl(270, 15%, 20%);
+  --input: hsl(270, 15%, 20%);
+  --primary: hsl(290, 83%, 65%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(260, 45%, 67%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --accent: hsl(270, 15%, 15%);
+  --accent-foreground: hsl(0, 0%, 95%);
+  --destructive: hsl(0, 62%, 50%);
+  --destructive-foreground: hsl(0, 0%, 95%);
+  --ring: hsl(290, 83%, 65%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .bg-custom-bg { background-color: var(--custom-bg); }
+  .bg-custom-card { background-color: var(--custom-card); }
+  .bg-custom-primary { background-color: var(--custom-primary); }
+  .bg-custom-secondary { background-color: var(--custom-secondary); }
+  .bg-custom-highlight { background-color: var(--custom-highlight); }
+  .bg-custom-success { background-color: var(--custom-success); }
+  .bg-custom-error { background-color: var(--custom-error); }
+  
+  .text-custom-title { color: var(--custom-title); }
+  .text-custom-text { color: var(--custom-text); }
+  .text-custom-link { color: var(--custom-link); }
+  
+  .border-custom-border { border-color: var(--custom-border); }
+  
+  .hover\:bg-custom-hover:hover { background-color: var(--custom-hover); }
+  .hover\:text-custom-link:hover { color: var(--custom-link); }
+}
