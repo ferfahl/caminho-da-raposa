@@ -167,19 +167,19 @@ export default function ProgressPage() {
       <Header />
 
       {/* Progress Header */}
-      <section className="bg-gradient-to-r from-custom-highlight to-custom-primary text-white py-16">
+      <section className="relative bg-gradient-to-br from-custom-bg to-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="w-16 h-16 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-4">
-              <i className="fas fa-chart-line text-2xl"></i>
-            </div>
-            <h1 className="text-4xl font-bold mb-4">Seu Progresso</h1>
-            <p className="text-lg text-gray-100 max-w-2xl mx-auto">
-              Acompanhe seu desenvolvimento nas trilhas de segurança digital e veja o que já conquistou.
+            <h1 className="text-4xl lg:text-5xl font-bold text-custom-title mb-6">
+              Seu Progresso
+            </h1>
+            <p className="text-lg text-custom-text max-w-2xl mx-auto mb-8">
+              Acompanhe o seu desenvolvimento nas trilhas de segurança digital e veja o que já conquistou.
             </p>
           </div>
         </div>
       </section>
+
 
       {/* Progress Overview */}
       <section className="py-16 bg-white">

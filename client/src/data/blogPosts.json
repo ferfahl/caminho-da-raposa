@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Lançamento da Plataforma Caminho da Raposa",
+    "excerpt": "Estamos empolgados em anunciar o lançamento oficial da nossa plataforma de educação em segurança digital.",
+    "content": "Hoje marca um marco importante para nós - o lançamento oficial do Caminho da Raposa!\n\nApós meses de desenvolvimento e testes, finalmente podemos compartilhar nossa visão de tornar a educação em segurança digital mais acessível e divertida.\n\n**O que você pode esperar:**\n- Trilhas interativas de aprendizado\n- Quizzes práticos e envolventes\n- Acompanhamento de progresso personalizado\n- Conteúdo sempre atualizado\n\nNossa jornada está apenas começando, e estamos ansiosos para receber seu feedback e sugestões para tornar a plataforma ainda melhor.",
+    "date": "2025-01-15",
+    "category": "Novidades",
+    "author": "Equipe Caminho da Raposa",
+    "readTime": "3 min"
+  },
+  {
+    "id": 2,
+    "title": "Nova Trilha: Defesa Digital Pessoal",
+    "excerpt": "Aprenda a proteger suas informações pessoais com nossa mais nova trilha educativa.",
+    "content": "Temos o prazer de anunciar o lançamento de nossa primeira trilha educativa: **Defesa Digital Pessoal**.\n\nEsta trilha abrangente foi projetada para ensinar os conceitos fundamentais de segurança digital de forma prática e envolvente.\n\n**Módulos inclusos:**\n1. Fundamentos da Segurança Digital\n2. Senhas Seguras e Autenticação\n3. Navegação Segura na Internet\n4. Proteção contra Phishing\n5. Backup e Recuperação de Dados\n\nCada módulo inclui exercícios práticos, quizzes interativos e dicas reais que você pode aplicar imediatamente em sua vida digital.",
+    "date": "2025-01-20",
+    "category": "Trilhas",
+    "author": "Equipe Educativa",
+    "readTime": "5 min"
+  },
+  {
+    "id": 3,
+    "title": "Dicas de Segurança: Autenticação de Dois Fatores",
+    "excerpt": "Por que a autenticação de dois fatores é essencial e como configurá-la corretamente.",
+    "content": "A autenticação de dois fatores (2FA) é uma das medidas de segurança mais importantes que você pode implementar para proteger suas contas online.\n\n**Por que é importante?**\nMesmo que alguém descubra sua senha, ainda precisará do segundo fator (geralmente seu telefone ou app autenticador) para acessar sua conta.\n\n**Como configurar:**\n1. Acesse as configurações de segurança da conta\n2. Procure por \"Autenticação de dois fatores\" ou \"2FA\"\n3. Escolha seu método preferido (SMS, app autenticador, etc.)\n4. Siga as instruções de configuração\n5. Guarde os códigos de backup em local seguro\n\n**Apps recomendados:**\n- Google Authenticator\n- Microsoft Authenticator\n- Authy\n\nLembre-se: sempre mantenha códigos de backup salvos em local seguro para não perder acesso às suas contas.",
+    "date": "2025-01-25",
+    "category": "Dicas",
+    "author": "Especialista em Segurança",
+    "readTime": "4 min"
+  },
+  {
+    "id": 4,
+    "title": "Atualização da Plataforma v1.1",
+    "excerpt": "Melhorias na interface, correções de bugs e novos recursos foram implementados.",
+    "content": "Estamos felizes em anunciar a versão 1.1 da nossa plataforma!\n\n**Novidades desta versão:**\n\n**🎨 Interface**\n- Design mais limpo e moderno\n- Melhor navegação mobile\n- Cores mais acessíveis\n\n**📊 Recursos**\n- Nova página de progresso detalhado\n- Sistema de conquistas aprimorado\n- Feedback melhorado nos quizzes\n\n**🐛 Correções**\n- Correção de problemas na navegação\n- Melhoria na velocidade de carregamento\n- Fixes em compatibilidade mobile\n\n**🔜 Próximos passos**\n- Sistema de certificados\n- Mais trilhas de aprendizado\n- Recursos de gamificação\n\nObrigado por seu feedback contínuo que nos ajuda a melhorar constantemente!",
+    "date": "2025-02-01",
+    "category": "Atualizações",
+    "author": "Equipe de Desenvolvimento",
+    "readTime": "3 min"
+  }
+]
