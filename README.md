@@ -1,5 +1,6 @@
 # 🦊 Caminho da Raposa
 
+Teste :) 
 Plataforma educacional interativa voltada para a **conscientização em segurança digital**.  
 Desenvolvida com foco em **usuários não técnicos**, utilizando **gamificação** e **módulos independentes** de ensino.
 
