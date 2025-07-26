@@ -4,7 +4,7 @@
 Plataforma educacional interativa voltada para a **conscientização em segurança digital**.  
 Desenvolvida com foco em **usuários não técnicos**, utilizando **gamificação** e **módulos independentes** de ensino.
 
-> **Versão online (temporária):** [https://caminho-da-raposa.netlify.app/](https://caminho-da-raposa.netlify.app/)
+> **Versão online (temporária):** [https://caminhodaraposa.netlify.app/](https://caminhodaraposa.netlify.app/)
 
 ---
 
@@ -47,34 +47,48 @@ Desenvolvida com foco em **usuários não técnicos**, utilizando **gamificaçã
 
 ## 🚀 Tecnologias Utilizadas
 
-- **[Bolt.new](https://bolt.new/)** – Criação rápida de interface  
-- **HTML5 / TailwindCSS** – Estilização baseada em design responsivo  
-- **JavaScript (ES6+)** – Interatividade dos módulos e quizzes  
-- **Netlify** – Publicação e CI/CD
+- **[Vite](https://vitejs.dev/)** – Ferramenta de build e bundling  
+- **[TailwindCSS](https://tailwindcss.com/)** – Estilização responsiva  
+- **[TypeScript](https://www.typescriptlang.org/)** – Desenvolvimento tipado  
+- **[React](https://reactjs.org/)** – Construção de componentes  
+- **[ESBuild](https://esbuild.github.io/)** – Empacotamento do código do servidor (não usado no deploy estático)  
+- **[Netlify](https://www.netlify.com/)** – Deploy contínuo e hospedagem estática
 
 ---
 
 ## 📂 Estrutura do Projeto
 
 ```
-├── public/              # Arquivos estáticos
-├── src/
-│   ├── components/      # Componentes reutilizáveis (cards, quizzes, menus)
-│   ├── modules/         # Conteúdos independentes de cada trilha
-│   ├── assets/          # Imagens (incluindo mascote)
-│   └── styles/          # Tailwind + customizações
-├── index.html           # Página inicial
-├── tailwind.config.js   # Configuração Tailwind
-└── README.md            # Este arquivo
+├── public/                # Arquivos estáticos base
+├── src/                   # Código-fonte do front-end
+│   ├── components/        # Componentes React reutilizáveis
+│   ├── modules/           # Módulos de aprendizagem
+│   ├── assets/            # Imagens e recursos
+│   └── styles/            # Estilos globais
+├── server/                # Código do servidor (não usado no deploy estático)
+├── dist/                  # Resultado do build de produção
+│   ├── public/            # Arquivos prontos para deploy estático
+│   └── index.js           # Build do backend (não utilizado)
+├── netlify.toml           # Configuração do deploy no Netlify
+├── package.json           # Dependências e scripts
+└── README.md              # Este arquivo
 ```
 
 ---
 
-## 🔧 Como Executar Localmente
+## 🔧 Pré-requisitos
+
+- **Node.js:** 18.x ou superior  
+- **npm:** 9.x ou superior  
+- **Git:** Para clonar o repositório
+
+---
+
+## ▶️ Como Executar Localmente
 
 1. **Clonar o repositório**
    ```bash
-   git clone https://github.com/SEU_USUARIO/caminho-da-raposa.git
+   git clone https://github.com/ferfahl/caminho-da-raposa.git
    cd caminho-da-raposa
    ```
 
@@ -83,26 +97,28 @@ Desenvolvida com foco em **usuários não técnicos**, utilizando **gamificaçã
    npm install
    ```
 
-3. **Rodar localmente**
+3. **Rodar em ambiente de desenvolvimento**
    ```bash
    npm run dev
    ```
-   O projeto estará disponível em: `http://localhost:3000`
+   O projeto ficará disponível em:
+   ```
+   http://localhost:5173
+   ```
 
-4. **Build para produção**
+4. **Gerar build de produção**
    ```bash
    npm run build
    ```
+   Os arquivos finais estarão em:
+   ```
+   dist/public
+   ```
 
----
-
-## 📢 Status do Projeto
-
-- **Fase:** Protótipo navegável  
-- **Próximos passos:**
-  - Implementar área de usuário com autenticação  
-  - Adicionar persistência de progresso  
-  - Conectar conteúdo dinâmico via API
+5. **Servir a build localmente (opcional)**
+   ```bash
+   npm run preview
+   ```
 
 ---
 
