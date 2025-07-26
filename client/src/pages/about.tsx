@@ -71,20 +71,20 @@ export default function AboutPage() {
                 <div className="grid md:grid-cols-3 gap-6 items-center">
                   <div className="md:col-span-1">
                     <img 
-                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80" 
+                      src="https://media.licdn.com/dms/image/v2/D5603AQFFcOsRNjjLYg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728045860233?e=1756339200&v=beta&t=IJYBww2RpxblY-h4DabC7__UfRf6Y_CzPr5ypGT94s4&auto=format&fit=crop&w=300&h=300&q=80" 
                       alt="Foto do criador" 
                       className="w-48 h-48 rounded-full mx-auto object-cover shadow-lg"
                     />
                   </div>
                   <div className="md:col-span-2">
                     <p className="text-custom-text leading-relaxed mb-4">
-                      [Seu nome aqui] é um especialista em segurança digital com mais de [X] anos de experiência na área. Apaixonado por educação e tecnologia, decidiu criar esta plataforma para compartilhar conhecimento de forma inovadora.
+                      Fernanda Fahl é desenvolvedora de software com experiência em integração de sistemas e segurança digital. Apaixonada por educação e tecnologia, criou o Caminho da Raposa para tornar o aprendizado em cibersegurança acessível, prático e acolhedor.
                     </p>
                     <p className="text-custom-text leading-relaxed mb-4">
-                      Formado em [sua formação], tem experiência em [suas especialidades] e acredita firmemente que a educação é a melhor ferramenta para criar um ambiente digital mais seguro para todos.
+                      Formada em Arquitetura e Urbanismo pela FAU-USP e em Engenharia de Software pela 42 São Paulo, além de cursar MBA em Engenharia de Software pela USP/Esalq, Fernanda traz uma visão multidisciplinar para a área de tecnologia, com experiência em automação, APIs, iPaaS e projetos de transformação digital. Acredita que a educação é a melhor ferramenta para criar um ambiente digital mais seguro e inclusivo.
                     </p>
                     <p className="text-custom-text leading-relaxed">
-                      Quando não está trabalhando em segurança digital, gosta de [seus hobbies] e sempre está buscando novas formas de tornar o aprendizado mais efetivo e divertido.
+                      Quando não está desenvolvendo soluções ou explorando temas de cibersegurança, gosta de ler, assistir filmes, patinar e dançar, sempre buscando criar experiências de aprendizado que combinem conhecimento técnico com criatividade.
                     </p>
                   </div>
                 </div>
@@ -129,35 +129,34 @@ export default function AboutPage() {
             {/* Contact */}
             <Card>
               <CardContent className="p-8 text-center">
-                <div className="w-12 h-12 bg-custom-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                  <i className="fas fa-envelope text-white"></i>
+                <div className="flex items-center justify-center mx-auto mb-4">
+                  <h2 className="text-2xl font-bold text-custom-title mb-4">Entre em Contato</h2>
                 </div>
-                <h2 className="text-2xl font-bold text-custom-title mb-4">Entre em Contato</h2>
                 <p className="text-custom-text leading-relaxed mb-6">
                   Tem sugestões, dúvidas ou quer colaborar com o projeto? Adoraria ouvir de você!
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a 
-                    href="mailto:contato@caminhodaraposa.com" 
-                    className="inline-flex items-center px-6 py-3 bg-custom-primary text-white rounded-lg hover:bg-custom-hover transition-colors"
+                    href="mailto:autumn.fahl@gmail.com" 
+                    className="inline-flex items-center px-6 py-3 bg-custom-primary text-white rounded-lg hover:opacity-90 transition-opacity"
                   >
                     <i className="fas fa-envelope mr-2"></i>
                     Email
                   </a>
                   <a 
-                    href="https://linkedin.com/in/seuperfil" 
+                    href="https://www.linkedin.com/in/fernanda-fahl/" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="inline-flex items-center px-6 py-3 bg-custom-secondary text-white rounded-lg hover:opacity-90 transition-opacity"
+                    className="inline-flex items-center px-6 py-3 bg-custom-highlight text-white rounded-lg hover:opacity-90 transition-opacity"
                   >
                     <i className="fab fa-linkedin mr-2"></i>
                     LinkedIn
                   </a>
                   <a 
-                    href="https://github.com/seuusuario" 
+                    href="https://github.com/ferfahl" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="inline-flex items-center px-6 py-3 bg-custom-title text-white rounded-lg hover:opacity-90 transition-opacity"
+                    className="inline-flex items-center px-6 py-3 bg-custom-secondary text-white rounded-lg hover:opacity-90 transition-opacity"
                   >
                     <i className="fab fa-github mr-2"></i>
                     GitHub

@@ -4,7 +4,7 @@
   "description": "Identifique e evite golpes online, phishing, e-mails fraudulentos e outras armadilhas digitais comuns.",
   "duration": "~35 min",
   "difficulty": "Intermediário",
-  "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300",
+  "image": "https://github.com/ferfahl/caminho-da-raposa/blob/main/public/static/img/mascote-caminho.png?raw=true&auto=format&fit=crop&w=400&h=300",
   "modules": [
     {
       "id": 1,
@@ -12,7 +12,58 @@
       "description": "Entenda como funcionam os principais tipos de golpes digitais.",
       "readingTime": "12min",
       "quizTime": "8min",
-      "content": "<h3>Como Funcionam os Golpes Online</h3><p>Golpes digitais são esquemas elaborados para enganar vítimas e roubar dinheiro, informações pessoais ou acesso a contas. Entender como funcionam é o primeiro passo para se proteger.</p><h4>Elementos Comuns dos Golpes</h4><ul><li><strong>Engenharia Social:</strong> Manipulação psicológica para ganhar confiança</li><li><strong>Senso de Urgência:</strong> Pressão para agir rapidamente</li><li><strong>Ofertas Tentadoras:</strong> Promessas de ganhos fáceis</li><li><strong>Imitação de Autoridades:</strong> Fingir ser banco, governo ou empresa conhecida</li><li><strong>Exploração de Emoções:</strong> Usar medo, ganância ou compaixão</li></ul><h4>Tipos Principais de Golpes</h4><p><strong>1. Phishing por E-mail:</strong></p><p>E-mails falsos que imitam empresas legítimas para roubar credenciais ou informações pessoais.</p><p><strong>2. Golpes de Romance:</strong></p><p>Criminosos criam relacionamentos falsos online para extorquir dinheiro das vítimas.</p><p><strong>3. Golpes de Investimento:</strong></p><p>Promessas de retornos altos e garantidos em investimentos fraudulentos.</p><p><strong>4. Golpes de Suporte Técnico:</strong></p><p>Falsos técnicos ligam oferecendo ajuda para problemas inexistentes no computador.</p><p><strong>5. Golpes de Compras Online:</strong></p><p>Sites falsos que vendem produtos inexistentes ou de qualidade inferior.</p><h4>O Ciclo do Golpe</h4><ol><li><strong>Isca:</strong> Atrair a vítima com oferta ou problema falso</li><li><strong>Ganho de Confiança:</strong> Estabelecer credibilidade</li><li><strong>Manipulação:</strong> Convencer a vítima a agir</li><li><strong>Extração:</strong> Obter dinheiro ou informações</li><li><strong>Desaparecimento:</strong> Sumir após conseguir o que queriam</li></ol>",
+      "sections": [
+        {
+          "type": "heading",
+          "content": "Como Funcionam os Golpes Online"
+        },
+        {
+          "type": "text",
+          "content": "Golpes digitais são esquemas elaborados para enganar vítimas e roubar dinheiro, informações pessoais ou acesso a contas. Entender como funcionam é o primeiro passo para se proteger."
+        },
+        {
+          "type": "heading",
+          "content": "Elementos Comuns dos Golpes"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Engenharia Social: Manipulação psicológica para ganhar confiança",
+            "Senso de Urgência: Pressão para agir rapidamente",
+            "Ofertas Tentadoras: Promessas de ganhos fáceis",
+            "Imitação de Autoridades: Fingir ser banco, governo ou empresa conhecida",
+            "Exploração de Emoções: Usar medo, ganância ou compaixão"
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Tipos Principais de Golpes"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Phishing por E-mail: E-mails falsos que imitam empresas legítimas para roubar credenciais ou informações pessoais",
+            "Golpes de Romance: Criminosos criam relacionamentos falsos online para extorquir dinheiro das vítimas",
+            "Golpes de Investimento: Promessas de retornos altos e garantidos em investimentos fraudulentos",
+            "Golpes de Suporte Técnico: Falsos técnicos ligam oferecendo ajuda para problemas inexistentes",
+            "Golpes de Compras Online: Sites falsos que vendem produtos inexistentes ou de qualidade inferior"
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "O Ciclo do Golpe"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Isca: Atrair a vítima com oferta ou problema falso",
+            "Ganho de Confiança: Estabelecer credibilidade",
+            "Manipulação: Convencer a vítima a agir",
+            "Extração: Obter dinheiro ou informações",
+            "Desaparecimento: Sumir após conseguir o que queriam"
+          ]
+        }
+      ],
       "quiz": [
         {
           "id": 1,
@@ -46,7 +97,70 @@
       "description": "Identifique e-mails maliciosos antes que causem danos.",
       "readingTime": "10min",
       "quizTime": "7min",
-      "content": "<h3>Phishing: A Pesca Digital</h3><p>O termo 'phishing' vem da palavra inglesa 'fishing' (pescaria), pois os criminosos 'pescam' informações das vítimas usando iscas digitais.</p><h4>Tipos de Phishing</h4><p><strong>1. E-mail Phishing:</strong></p><p>E-mails falsos que imitam empresas conhecidas, como bancos, redes sociais ou serviços online.</p><p><strong>2. Spear Phishing:</strong></p><p>Ataques direcionados a indivíduos específicos, usando informações pessoais para parecer mais convincentes.</p><p><strong>3. Smishing:</strong></p><p>Phishing via SMS, usando mensagens de texto para enganar vítimas.</p><p><strong>4. Vishing:</strong></p><p>Phishing por voz, usando chamadas telefônicas para obter informações.</p><h4>Sinais de Alerta em E-mails</h4><ul><li><strong>Remetente suspeito:</strong> noreply@amaz0n.com ao invés de amazon.com</li><li><strong>Saudações genéricas:</strong> 'Caro cliente' ao invés do seu nome</li><li><strong>Erros de português:</strong> Gramática e ortografia incorretas</li><li><strong>Links suspeitos:</strong> URLs que não batem com a empresa</li><li><strong>Anexos inesperados:</strong> Arquivos que você não solicitou</li><li><strong>Urgência excessiva:</strong> 'Sua conta será bloqueada em 24h'</li></ul><h4>Como Verificar E-mails Suspeitos</h4><ol><li><strong>Analise o remetente:</strong> Verifique o endereço completo</li><li><strong>Passe o mouse sobre links:</strong> Veja o destino real sem clicar</li><li><strong>Verifique informações:</strong> Entre no site oficial separadamente</li><li><strong>Não forneça dados:</strong> Empresas legítimas não pedem senhas por e-mail</li><li><strong>Reporte:</strong> Encaminhe e-mails suspeitos para a empresa verdadeira</li></ol><h4>Exemplos Reais de Phishing</h4><p><strong>Falso banco:</strong> 'Detectamos atividade suspeita. Clique aqui para verificar sua conta.'</p><p><strong>Falsa receita federal:</strong> 'Você tem restituição pendente. Baixe o arquivo anexo.'</p><p><strong>Falso e-commerce:</strong> 'Sua compra foi cancelada. Atualize seus dados de pagamento.'</p>",
+      "sections": [
+        {
+          "type": "heading",
+          "content": "Phishing: A Pesca Digital"
+        },
+        {
+          "type": "text",
+          "content": "O termo 'phishing' vem da palavra inglesa 'fishing' (pescaria), pois os criminosos 'pescam' informações das vítimas usando iscas digitais."
+        },
+        {
+          "type": "heading",
+          "content": "Tipos de Phishing"
+        },
+        {
+          "type": "list",
+          "items": [
+            "E-mail Phishing: E-mails falsos que imitam empresas conhecidas",
+            "Spear Phishing: Ataques direcionados a indivíduos específicos usando informações pessoais",
+            "Smishing: Phishing via SMS",
+            "Vishing: Phishing por voz, usando chamadas telefônicas"
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Sinais de Alerta em E-mails"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Remetente suspeito: ex. noreply@amaz0n.com",
+            "Saudações genéricas: 'Caro cliente'",
+            "Erros de português",
+            "Links suspeitos: URLs que não batem com a empresa",
+            "Anexos inesperados",
+            "Urgência excessiva: 'Sua conta será bloqueada em 24h'"
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Como Verificar E-mails Suspeitos"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Analise o remetente: verifique o endereço completo",
+            "Passe o mouse sobre links: veja o destino real",
+            "Verifique informações no site oficial",
+            "Não forneça dados pessoais por e-mail",
+            "Reporte e-mails suspeitos para a empresa verdadeira"
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Exemplos Reais de Phishing"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Falso banco: 'Detectamos atividade suspeita. Clique aqui para verificar sua conta.'",
+            "Falsa Receita Federal: 'Você tem restituição pendente. Baixe o arquivo anexo.'",
+            "Falso e-commerce: 'Sua compra foi cancelada. Atualize seus dados de pagamento.'"
+          ]
+        }
+      ],
       "quiz": [
         {
           "id": 1,
@@ -80,7 +194,57 @@
       "description": "Proteja-se de fraudes nas plataformas sociais.",
       "readingTime": "8min",
       "quizTime": "6min",
-      "content": "<h3>Golpes nas Redes Sociais</h3><p>As redes sociais se tornaram um campo fértil para golpistas, que exploram a confiança e o compartilhamento de informações pessoais dessas plataformas.</p><h4>Tipos Comuns de Golpes</h4><p><strong>1. Perfis Falsos:</strong></p><ul><li>Criminosos criam perfis fake para se aproximar de vítimas</li><li>Roubam fotos de pessoas reais</li><li>Imitam celebridades ou pessoas conhecidas</li></ul><p><strong>2. Golpes de Romance:</strong></p><ul><li>Constroem relacionamentos falsos para extorquir dinheiro</li><li>Inventam emergências para pedir ajuda financeira</li><li>Pedem informações pessoais sob pretexto de 'conhecer melhor'</li></ul><p><strong>3. Golpes de Sorteios e Promoções:</strong></p><ul><li>'Você ganhou um iPhone! Clique aqui para resgatar'</li><li>Pedem compartilhamento para 'validar' o prêmio</li><li>Solicitam dados pessoais para 'entrega'</li></ul><p><strong>4. Golpes de Emprego:</strong></p><ul><li>Oferecem trabalhos 'fáceis' com alta remuneração</li><li>Pedem dinheiro antecipado para 'taxa de cadastro'</li><li>Solicitam documentos pessoais para 'contratação'</li></ul><h4>Sinais de Alerta</h4><ul><li><strong>Perfil recente:</strong> Conta criada há pouco tempo</li><li><strong>Poucas fotos:</strong> Ou fotos muito profissionais demais</li><li><strong>Poucos amigos:</strong> Lista de contatos limitada</li><li><strong>Ofertas tentadoras:</strong> Bom demais para ser verdade</li><li><strong>Pressa:</strong> Pressão para agir rapidamente</li><li><strong>Pedidos de dinheiro:</strong> Mesmo que por 'emergência'</li></ul><h4>Como se Proteger</h4><ul><li><strong>Configure privacidade:</strong> Limite quem pode ver suas informações</li><li><strong>Verifique perfis:</strong> Procure por sinais de autenticidade</li><li><strong>Não aceite desconhecidos:</strong> Seja seletivo com solicitações de amizade</li><li><strong>Desconfie de ofertas:</strong> Se parece bom demais, provavelmente é falso</li><li><strong>Nunca envie dinheiro:</strong> Para pessoas que conheceu online</li><li><strong>Reporte contas suspeitas:</strong> Ajude a plataforma a identificar golpistas</li></ul>",
+      "sections": [
+        {
+          "type": "heading",
+          "content": "Golpes nas Redes Sociais"
+        },
+        {
+          "type": "text",
+          "content": "As redes sociais se tornaram um campo fértil para golpistas, que exploram a confiança e o compartilhamento de informações pessoais."
+        },
+        {
+          "type": "heading",
+          "content": "Tipos Comuns de Golpes"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Perfis Falsos: criminosos criam perfis fake para se aproximar de vítimas",
+            "Golpes de Romance: relacionamentos falsos para extorquir dinheiro",
+            "Golpes de Sorteios e Promoções: promessas de prêmios inexistentes",
+            "Golpes de Emprego: ofertas de trabalhos falsos com cobrança de taxas"
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Sinais de Alerta"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Perfil recente ou com poucas fotos",
+            "Ofertas muito boas para ser verdade",
+            "Pressão para agir rapidamente",
+            "Pedidos de dinheiro mesmo que por 'emergência'"
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Como se Proteger"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Configure privacidade para limitar quem vê suas informações",
+            "Verifique perfis antes de aceitar solicitações",
+            "Não aceite desconhecidos",
+            "Desconfie de ofertas tentadoras",
+            "Nunca envie dinheiro a pessoas conhecidas apenas online",
+            "Reporte contas suspeitas"
+          ]
+        }
+      ],
       "quiz": [
         {
           "id": 1,
@@ -114,7 +278,83 @@
       "description": "Evite fraudes ao fazer compras na internet.",
       "readingTime": "10min",
       "quizTime": "8min",
-      "content": "<h3>Compras Online Seguras</h3><p>O e-commerce cresce constantemente, mas junto com as oportunidades legítimas, surgem também sites fraudulentos e golpes de compra online.</p><h4>Tipos de Golpes em Compras Online</h4><p><strong>1. Sites Falsos:</strong></p><ul><li>Lojas virtuais que não entregam produtos</li><li>Imitam sites legítimos com URLs similares</li><li>Preços muito abaixo do mercado</li></ul><p><strong>2. Produtos Falsificados:</strong></p><ul><li>Vendem réplicas baratas como originais</li><li>Qualidade muito inferior ao anunciado</li><li>Podem ser perigosos (eletrônicos, cosméticos)</li></ul><p><strong>3. Golpes de Pagamento:</strong></p><ul><li>Pedem transferência ou depósito direto</li><li>Links de pagamento falsos</li><li>Clonagem de cartão durante a compra</li></ul><h4>Como Identificar Sites Confiáveis</h4><ul><li><strong>HTTPS e Cadeado:</strong> URL deve começar com https://</li><li><strong>Informações da empresa:</strong> CNPJ, endereço, telefone</li><li><strong>Política de troca e devolução:</strong> Clara e detalhada</li><li><strong>Avaliações reais:</strong> Comentários de outros compradores</li><li><strong>Atendimento ao cliente:</strong> Canais de contato funcionais</li><li><strong>Selos de segurança:</strong> Certificações de organizações confiáveis</li></ul><h4>Métodos de Pagamento Seguros</h4><p><strong>Mais Seguros:</strong></p><ul><li>Cartão de crédito (proteção contra fraude)</li><li>PayPal ou similares (proteção do comprador)</li><li>Pix em sites confiáveis</li></ul><p><strong>Evitar:</strong></p><ul><li>Transferência bancária para pessoas físicas</li><li>Depósito em conta</li><li>Pagamento apenas via WhatsApp</li><li>Criptomoedas para produtos físicos</li></ul><h4>Boas Práticas para Compras</h4><ol><li><strong>Pesquise o vendedor:</strong> Busque avaliações em sites como Reclame Aqui</li><li><strong>Compare preços:</strong> Desconfie de valores muito baixos</li><li><strong>Leia descrições:</strong> Verifique especificações e condições</li><li><strong>Guarde comprovantes:</strong> E-mails, capturas de tela, notas fiscais</li><li><strong>Use Wi-Fi seguro:</strong> Evite comprar em redes públicas</li><li><strong>Monitore extratos:</strong> Verifique cobranças indevidas</li></ol><h4>O que Fazer se Foi Golpeado</h4><ul><li>Entre em contato com a loja imediatamente</li><li>Registre reclamação no Procon</li><li>Conteste a cobrança no cartão</li><li>Faça boletim de ocorrência se necessário</li><li>Documente tudo (prints, e-mails, conversas)</li></ul>",
+      "sections": [
+        {
+          "type": "heading",
+          "content": "Compras Online Seguras"
+        },
+        {
+          "type": "text",
+          "content": "O e-commerce cresce constantemente, mas junto com as oportunidades legítimas, surgem também sites fraudulentos e golpes de compra online."
+        },
+        {
+          "type": "heading",
+          "content": "Tipos de Golpes em Compras Online"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sites Falsos: lojas que não entregam produtos ou imitam sites legítimos",
+            "Produtos Falsificados: réplicas baratas vendidas como originais",
+            "Golpes de Pagamento: links falsos ou clonagem de cartão"
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Como Identificar Sites Confiáveis"
+        },
+        {
+          "type": "list",
+          "items": [
+            "HTTPS e Cadeado",
+            "Informações claras da empresa (CNPJ, endereço, telefone)",
+            "Política de troca e devolução transparente",
+            "Avaliações reais de outros compradores",
+            "Atendimento ao cliente funcional",
+            "Selos de segurança confiáveis"
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Métodos de Pagamento Seguros"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cartão de crédito (proteção contra fraude)",
+            "PayPal ou similares (proteção do comprador)",
+            "Pix em sites confiáveis"
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "Boas Práticas para Compras"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pesquise o vendedor antes da compra",
+            "Compare preços e desconfie de valores muito baixos",
+            "Leia descrições e condições",
+            "Guarde comprovantes e notas fiscais",
+            "Use Wi-Fi seguro e monitore extratos"
+          ]
+        },
+        {
+          "type": "heading",
+          "content": "O que Fazer se Foi Golpeado"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Entre em contato com a loja imediatamente",
+            "Registre reclamação no Procon",
+            "Conteste a cobrança no cartão",
+            "Faça boletim de ocorrência",
+            "Documente todas as provas"
+          ]
+        }
+      ],
       "quiz": [
         {
           "id": 1,
