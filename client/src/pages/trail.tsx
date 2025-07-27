@@ -96,10 +96,10 @@ export default function Trail() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-4xl font-bold mb-4 text-[#5C2A7C]">{trail.title}</h1>
-              <p className="text-lg mb-6 text-[#2D2D2D]">{trail.description}</p>
+              <h1 className="text-4xl font-bold mb-4 text-custom-title">{trail.title}</h1>
+              <p className="text-lg mb-6 text-custom-text">{trail.description}</p>
               
-              <div className="flex items-center space-x-6 mb-8 text-[#5C2A7C]">
+              <div className="flex items-center space-x-6 mb-8 text-custom-title">
                 <div className="flex items-center">
                   <i className="fas fa-clock mr-2"></i>
                   <span>{trail.duration}</span>
@@ -116,7 +116,7 @@ export default function Trail() {
 
               {/* Progress Overview */}
               <div className="bg-white bg-opacity-10 rounded-lg p-4">
-                <div className="flex justify-between text-sm mb-2 text-[#5C2A7C]">
+                <div className="flex justify-between text-sm mb-2 text-custom-title">
                   <span>Seu Progresso</span>
                   <span>{Math.round(progressPercentage)}%</span>
                 </div>
