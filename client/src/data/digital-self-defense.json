@@ -63,23 +63,23 @@
           "question": "O que é segurança digital?",
           "options": [
             "Apenas proteger o computador contra vírus",
-            "Práticas para proteger informações e sistemas contra ameaças online",
             "Usar apenas sites seguros",
+            "Práticas para proteger informações e sistemas contra ameaças online",
             "Não compartilhar senhas"
           ],
-          "correct": 1,
+          "correct": 2,
           "explanation": "Segurança digital engloba todas as práticas e medidas para proteger informações pessoais, dados e sistemas contra diversas ameaças online."
         },
         {
           "id": 2,
           "question": "Por que a privacidade online é importante?",
           "options": [
-            "Para esconder atividades ilegais",
             "Para manter controle sobre quem acessa suas informações",
+            "Para esconder atividades ilegais",
             "Não é importante, todos podem ver tudo",
             "Apenas para empresas"
           ],
-          "correct": 1,
+          "correct": 0,
           "explanation": "A privacidade online é fundamental para manter controle sobre suas informações pessoais e proteger sua identidade digital."
         }
       ]
@@ -161,10 +161,10 @@
           "options": [
             "123456789",
             "MinhaData2024",
-            "K9$mR#n8@pL2&vX!",
-            "password123"
+            "password123",
+            "K9$mR#n8@pL2&vX!"
           ],
-          "correct": 2,
+          "correct": 3,
           "explanation": "A senha 'K9$mR#n8@pL2&vX!' é mais segura por combinar letras maiúsculas, minúsculas, números e símbolos de forma aleatória."
         }
       ]
@@ -234,12 +234,12 @@
           "id": 1,
           "question": "Qual é um sinal de alerta comum em e-mails de phishing?",
           "options": [
-            "Mensagens longas e detalhadas",
             "Urgência excessiva para ação imediata",
+            "Mensagens longas e detalhadas",
             "Anexos em formato PDF",
             "Assinatura da empresa"
           ],
-          "correct": 1,
+          "correct": 0,
           "explanation": "E-mails de phishing frequentemente criam senso de urgência para fazer com que as vítimas ajam sem pensar."
         },
         {
@@ -332,23 +332,23 @@
           "question": "Por que é importante manter o navegador atualizado?",
           "options": [
             "Para ter novos recursos",
-            "Para corrigir falhas de segurança",
             "Para mudar a aparência",
+            "Para corrigir falhas de segurança",
             "Não é importante"
           ],
-          "correct": 1,
+          "correct": 2,
           "explanation": "Atualizações frequentemente corrigem vulnerabilidades de segurança que poderiam ser exploradas por criminosos."
         },
         {
           "id": 2,
           "question": "Qual cuidado você deve ter ao usar Wi-Fi público?",
           "options": [
-            "Usar normalmente, sem restrições",
             "Evitar acessar informações sensíveis",
+            "Usar normalmente, sem restrições",
             "Sempre compartilhar a senha",
             "Deixar o Wi-Fi sempre conectado"
           ],
-          "correct": 1,
+          "correct": 0,
           "explanation": "Wi-Fi público pode ser inseguro, então evite acessar bancos, e-mails ou outras informações sensíveis nessas redes."
         }
       ]
@@ -441,11 +441,11 @@
           "question": "Por que é importante fazer backup de dados importantes?",
           "options": [
             "Para ocupar mais espaço de armazenamento",
-            "Para proteger contra perda de dados por falhas ou ataques",
             "Não é necessário fazer backup",
+            "Para proteger contra perda de dados por falhas ou ataques",
             "Apenas para empresas"
           ],
-          "correct": 1,
+          "correct": 2,
           "explanation": "Backups protegem contra perda de dados causada por falhas de hardware, ataques de ransomware ou outros incidentes."
         }
       ]
