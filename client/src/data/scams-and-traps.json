@@ -70,23 +70,23 @@
           "question": "Qual é um elemento comum em golpes online?",
           "options": [
             "Informações detalhadas e transparentes",
-            "Senso de urgência para ação imediata",
             "Tempo para reflexão",
-            "Verificação de identidade rigorosa"
+            "Verificação de identidade rigorosa",
+            "Senso de urgência para ação imediata"
           ],
-          "correct": 1,
+          "correct": 3,
           "explanation": "Golpistas frequentemente criam senso de urgência para impedir que a vítima pense cuidadosamente antes de agir."
         },
         {
           "id": 2,
           "question": "O que é engenharia social no contexto de golpes?",
           "options": [
-            "Uso de tecnologia avançada",
             "Manipulação psicológica para ganhar confiança",
+            "Uso de tecnologia avançada",
             "Redes sociais para comunicação",
             "Sistemas de segurança"
           ],
-          "correct": 1,
+          "correct": 0,
           "explanation": "Engenharia social é a manipulação psicológica usada para enganar pessoas e fazê-las revelar informações ou tomar ações prejudiciais."
         }
       ]
@@ -167,11 +167,11 @@
           "question": "O que é 'spear phishing'?",
           "options": [
             "Phishing via SMS",
-            "Ataques direcionados a indivíduos específicos",
             "Phishing por telefone",
+            "Ataques direcionados a indivíduos específicos",
             "E-mails em massa"
           ],
-          "correct": 1,
+          "correct": 2,
           "explanation": "Spear phishing são ataques de phishing altamente direcionados que usam informações pessoais para parecer mais convincentes."
         },
         {
@@ -262,12 +262,12 @@
           "id": 2,
           "question": "O que fazer se alguém que você conheceu online pedir dinheiro?",
           "options": [
-            "Enviar imediatamente para ajudar",
             "Nunca enviar dinheiro para pessoas conhecidas online",
+            "Enviar imediatamente para ajudar",
             "Pedir mais detalhes sobre a emergência",
             "Consultar amigos primeiro"
           ],
-          "correct": 1,
+          "correct": 0,
           "explanation": "Nunca envie dinheiro para pessoas que conheceu apenas online, mesmo que a história pareça convincente. É uma tática comum de golpistas."
         }
       ]
@@ -360,12 +360,12 @@
           "id": 1,
           "question": "Qual método de pagamento é mais seguro para compras online?",
           "options": [
+            "Cartão de crédito",
             "Transferência bancária",
             "Depósito em conta",
-            "Cartão de crédito",
             "Dinheiro em espécie"
           ],
-          "correct": 2,
+          "correct": 0,
           "explanation": "Cartão de crédito oferece proteção contra fraudes e permite contestar cobranças indevidas com mais facilidade."
         },
         {
@@ -373,11 +373,11 @@
           "question": "O que é um sinal de alerta em um site de compras?",
           "options": [
             "Muitas opções de pagamento",
-            "Preços muito abaixo do mercado",
             "Política de devolução clara",
+            "Preços muito abaixo do mercado",
             "Certificado SSL (https)"
           ],
-          "correct": 1,
+          "correct": 2,
           "explanation": "Preços muito abaixo do mercado podem indicar produtos falsificados, sites fraudulentos ou golpes."
         }
       ]

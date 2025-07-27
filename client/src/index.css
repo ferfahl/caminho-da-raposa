@@ -15,7 +15,7 @@
   --card-foreground: hsl(0, 0%, 18%);
   --border: hsl(270, 30%, 85%);
   --input: hsl(270, 30%, 85%);
-  --primary: hsl(290, 83%, 65%);
+  --primary: hsl(290, 46%, 61%);
   --primary-foreground: hsl(0, 0%, 100%);
   --secondary: hsl(260, 45%, 67%);
   --secondary-foreground: hsl(0, 0%, 100%);
@@ -23,19 +23,21 @@
   --accent-foreground: hsl(0, 0%, 18%);
   --destructive: hsl(0, 73%, 82%);
   --destructive-foreground: hsl(0, 0%, 18%);
-  --ring: hsl(290, 83%, 65%);
+  --ring: hsl(290, 46%, 61%);
   --radius: 0.75rem;
   
   /* Custom fox-themed colors */
   --custom-bg: hsl(280, 100%, 98%);
+  --custom-up: hsl(268, 59%, 25%);
   --custom-title: hsl(270, 50%, 32%);
   --custom-text: hsl(0, 0%, 18%);
+  --custom-whitetext: hsl(0, 0%, 98%);
   --custom-highlight: hsl(225, 35%, 38%);
   --custom-card: hsl(0, 0%, 98%);
   --custom-border: hsl(270, 30%, 85%);
-  --custom-primary: hsl(290, 83%, 65%);
+  --custom-primary: hsl(290, 46%, 61%);
   --custom-secondary: hsl(260, 45%, 67%);
-  --custom-hover: hsl(285, 70%, 58%);
+  --custom-hover: hsl(285, 53%, 65%);
   --custom-link: hsl(245, 100%, 70%);
   --custom-success: hsl(140, 40%, 75%);
   --custom-error: hsl(0, 60%, 82%);
@@ -52,7 +54,7 @@
   --card-foreground: hsl(0, 0%, 95%);
   --border: hsl(270, 15%, 20%);
   --input: hsl(270, 15%, 20%);
-  --primary: hsl(290, 83%, 65%);
+  --primary: hsl(290, 46%, 61%);
   --primary-foreground: hsl(0, 0%, 100%);
   --secondary: hsl(260, 45%, 67%);
   --secondary-foreground: hsl(0, 0%, 100%);
@@ -60,7 +62,7 @@
   --accent-foreground: hsl(0, 0%, 95%);
   --destructive: hsl(0, 62%, 50%);
   --destructive-foreground: hsl(0, 0%, 95%);
-  --ring: hsl(290, 83%, 65%);
+  --ring: hsl(290, 46%, 61%);
 }
 
 @layer base {
@@ -76,6 +78,7 @@
 
 @layer utilities {
   .bg-custom-bg { background-color: var(--custom-bg); }
+  .bg-custom-up { background-color: var(--custom-up); }
   .bg-custom-card { background-color: var(--custom-card); }
   .bg-custom-primary { background-color: var(--custom-primary); }
   .bg-custom-secondary { background-color: var(--custom-secondary); }
@@ -85,6 +88,7 @@
   
   .text-custom-title { color: var(--custom-title); }
   .text-custom-text { color: var(--custom-text); }
+  .text-custom-whitetext { color: var(--custom-whitetext); }
   .text-custom-link { color: var(--custom-link); }
   
   .border-custom-border { border-color: var(--custom-border); }
