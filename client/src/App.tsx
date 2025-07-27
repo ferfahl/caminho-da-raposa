@@ -10,6 +10,7 @@ import ProgressPage from "@/pages/progress";
 import BlogPage from "@/pages/blog";
 import AboutPage from "@/pages/about";
 import NotFound from "@/pages/not-found";
+import HowToUse from "@/pages/how-to";
 
 function Router() {
   return (
@@ -20,6 +21,7 @@ function Router() {
       <Route path="/progress" component={ProgressPage} />
       <Route path="/blog" component={BlogPage} />
       <Route path="/about" component={AboutPage} />
+      <Route path="/howtouse" component={HowToUse} />
       <Route component={NotFound} />
     </Switch>
   );

@@ -81,7 +81,7 @@ export default function AboutPage() {
                       Fernanda Fahl é desenvolvedora de software com experiência em integração de sistemas e segurança digital. Apaixonada por educação e tecnologia, criou o Caminho da Raposa para tornar o aprendizado em cibersegurança acessível, prático e acolhedor.
                     </p>
                     <p className="text-custom-text leading-relaxed mb-4">
-                      Formada em Arquitetura e Urbanismo pela FAU-USP e em Engenharia de Software pela 42 São Paulo, além de cursar MBA em Engenharia de Software pela USP/Esalq, Fernanda traz uma visão multidisciplinar para a área de tecnologia, com experiência em automação, APIs, iPaaS e projetos de transformação digital. Acredita que a educação é a melhor ferramenta para criar um ambiente digital mais seguro e inclusivo.
+                      Formada em Arquitetura e Urbanismo pela FAU-USP e em Engenharia de Software pela 42 São Paulo, além de cursar MBA em Engenharia de Software pela USP/Esalq, Fernanda traz uma visão multidisciplinar para a tecnologia, unindo sua vivência na área de arquitetura e design à experiência em automação, APIs, atuação no iPaaS Digibee e no BRE. Acredita que a educação é a melhor ferramenta para criar um ambiente digital mais seguro e inclusivo.
                     </p>
                     <p className="text-custom-text leading-relaxed">
                       Quando não está desenvolvendo soluções ou explorando temas de cibersegurança, gosta de ler, assistir filmes, patinar e dançar, sempre buscando criar experiências de aprendizado que combinem conhecimento técnico com criatividade.
